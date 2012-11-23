@@ -5,9 +5,8 @@ dbpass:
 dbhost:
 dbport:
 authurl:
-tenant_id:
 tenant_name:
-username:
-password:
+novauser:
+novapass:
 novacertname:
 novacertpath:
