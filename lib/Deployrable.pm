@@ -38,9 +38,10 @@ sub startup {
     $r->get('/projects' => sub {
         my $self = shift;
 
-        my $projects = [
-            {id => 0, title => "Project 0"},
-        ];
+        my $projects = $self->db->selectall_arrayref("
+            select * from projects;
+            ",{Slice => {}}
+        );
 
         $self->stash(projects => $projects);
         $self->stash(title => "Projects");

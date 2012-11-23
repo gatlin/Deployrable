@@ -2,11 +2,24 @@
 % title $title;
 <div class="row">
 <div class="span8">
-<ul>
+<% if (scalar @$projects) { %>
+<table class="table table-striped">
+<thead>
+    <tr>
+        <th>Name</th>
+    </tr>
+</thead>
+<tbody>
 <% for my $p (@$projects) { %>
-    <li><a href="/project/<%= $p->{id} %>"><%= $p->{title} %></a></li>
+    <tr>
+    <td><a href="/project/<%= $p->{id} %>"><%= $p->{title} %></a></td>
+    </tr>
 <% } %>
-</ul>
+</tbody>
+</table>
+<% } else { %>
+<h3>None yet! Create a new one to get started.</h3>
+<% } %>
 </div>
 <div class="span4">
 <p class="well"><a href="/projects/new" class="btn">New Project</a></p>
