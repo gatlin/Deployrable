@@ -1,0 +1,1875 @@
+[Fri Nov 23 02:30:21 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:30:30 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:31:06 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:31:06 2012] [info] Listening at "http://*:3000".
+[Fri Nov 23 02:31:21 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:31:21 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:31:21 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:31:21 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:31:21 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:31:21 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:31:21 2012] [debug] 404 Not Found (0.032376s, 30.887/s).
+[Fri Nov 23 02:31:59 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:32:00 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:32:00 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:32:00 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:32:00 2012] [debug] 302 Found (0.001830s, 546.448/s).
+[Fri Nov 23 02:32:00 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:32:00 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:32:00 2012] [debug] Rendering template "projects.html.ep".
+[Fri Nov 23 02:32:00 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:32:00 2012] [debug] 200 OK (0.022963s, 43.548/s).
+[Fri Nov 23 02:32:00 2012] [debug] GET /css/bootstrap.css (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:32:00 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:32:00 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:32:00 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:32:00 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:32:00 2012] [debug] 404 Not Found (0.024503s, 40.811/s).
+[Fri Nov 23 02:32:00 2012] [debug] GET /css/bootstrap-responsive.css (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:32:00 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:32:00 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:32:00 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:32:00 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:32:00 2012] [debug] 404 Not Found (0.008190s, 122.100/s).
+[Fri Nov 23 02:32:00 2012] [debug] GET /js/bootstrap.min.js (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:32:00 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:32:00 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:32:00 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:32:00 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:32:00 2012] [debug] 404 Not Found (0.006902s, 144.886/s).
+[Fri Nov 23 02:32:00 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:32:00 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:32:00 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:32:00 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:32:00 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:32:00 2012] [debug] 404 Not Found (0.008293s, 120.584/s).
+[Fri Nov 23 02:32:01 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:32:01 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:32:01 2012] [debug] Rendering cached template projects.html.ep.
+[Fri Nov 23 02:32:01 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 02:32:01 2012] [debug] 200 OK (0.001186s, 843.170/s).
+[Fri Nov 23 02:32:01 2012] [debug] GET /css/bootstrap.css (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:32:01 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:32:01 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:32:01 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:32:01 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:32:01 2012] [debug] 404 Not Found (0.010471s, 95.502/s).
+[Fri Nov 23 02:32:01 2012] [debug] GET /css/bootstrap-responsive.css (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:32:01 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:32:01 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:32:01 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:32:01 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:32:01 2012] [debug] 404 Not Found (0.008163s, 122.504/s).
+[Fri Nov 23 02:32:01 2012] [debug] GET /js/bootstrap.min.js (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:32:01 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:32:01 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:32:01 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:32:01 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:32:01 2012] [debug] 404 Not Found (0.009273s, 107.840/s).
+[Fri Nov 23 02:32:57 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:32:58 2012] [info] Listening at "http://*:3000".
+[Fri Nov 23 02:32:59 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:32:59 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:32:59 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:32:59 2012] [debug] Rendering template "projects.html.ep".
+[Fri Nov 23 02:32:59 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:32:59 2012] [debug] 200 OK (0.018595s, 53.778/s).
+[Fri Nov 23 02:33:03 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:33:03 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:33:03 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 02:33:03 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:33:03 2012] [debug] 200 OK (0.013715s, 72.913/s).
+[Fri Nov 23 02:33:04 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:33:04 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:33:04 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:33:04 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:33:04 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:33:19 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:33:19 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:33:19 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:33:19 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:33:19 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:33:19 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:33:34 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:33:34 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:33:34 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:33:34 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:33:34 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:33:34 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:33:49 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:33:52 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:33:52 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:33:52 2012] [debug] Rendering cached template project_branches.html.ep.
+[Fri Nov 23 02:33:52 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 02:33:52 2012] [debug] 200 OK (0.001816s, 550.661/s).
+[Fri Nov 23 02:33:53 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:33:53 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:33:53 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:33:53 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:33:53 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 02:33:53 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:33:53 2012] [debug] 200 OK (0.015680s, 63.776/s).
+[Fri Nov 23 02:33:53 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:33:53 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:33:53 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:33:53 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:33:53 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:34:09 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:34:09 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:34:09 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:34:09 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:34:09 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:34:09 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:34:11 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:34:22 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:34:22 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:34:22 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:34:22 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:34:22 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 02:34:22 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:34:22 2012] [debug] 200 OK (0.019991s, 50.023/s).
+[Fri Nov 23 02:34:23 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:34:23 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:34:23 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:34:23 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:34:23 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:34:31 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:34:32 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:34:32 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:34:32 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:34:32 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 02:34:32 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:34:32 2012] [debug] 200 OK (0.020972s, 47.683/s).
+[Fri Nov 23 02:34:32 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:34:32 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:34:32 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:34:32 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:34:32 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:34:36 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:34:49 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:34:50 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:34:50 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:34:50 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:34:50 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 02:34:50 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:34:50 2012] [debug] 200 OK (0.016634s, 60.118/s).
+[Fri Nov 23 02:34:50 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:34:50 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:34:50 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:34:50 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:34:50 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:35:04 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:35:05 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:35:05 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:35:05 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:35:05 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 02:35:05 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:35:05 2012] [debug] 200 OK (0.016932s, 59.060/s).
+[Fri Nov 23 02:35:05 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:35:05 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:35:05 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:35:05 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:35:05 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:35:20 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:35:20 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:35:20 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:35:20 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:35:20 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:35:20 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:35:32 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:35:32 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:35:32 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:35:32 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:35:32 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 02:35:32 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:35:32 2012] [debug] 200 OK (0.014544s, 68.757/s).
+[Fri Nov 23 02:35:32 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:35:32 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:35:32 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:35:32 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:35:32 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:35:36 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:35:36 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:35:36 2012] [debug] Rendering template "projects.html.ep".
+[Fri Nov 23 02:35:36 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:35:36 2012] [debug] 200 OK (0.013137s, 76.121/s).
+[Fri Nov 23 02:35:36 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:35:36 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:35:36 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:35:36 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:35:36 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:35:36 2012] [debug] 404 Not Found (0.025014s, 39.978/s).
+[Fri Nov 23 02:35:48 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:35:48 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:35:48 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:35:48 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:35:48 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:35:48 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:35:52 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:35:52 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:35:52 2012] [debug] Rendering cached template project_branches.html.ep.
+[Fri Nov 23 02:35:52 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 02:35:52 2012] [debug] 200 OK (0.001944s, 514.403/s).
+[Fri Nov 23 02:36:03 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:36:03 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:36:03 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:36:03 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:36:03 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:36:03 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:36:18 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:36:18 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:36:18 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:36:18 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:36:18 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:36:18 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:36:33 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:36:39 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:36:42 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:36:42 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:36:42 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:36:42 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 02:36:42 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:36:42 2012] [debug] 200 OK (0.019997s, 50.008/s).
+[Fri Nov 23 02:36:42 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:36:42 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:36:42 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:36:42 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:36:42 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:36:43 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:36:43 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:36:43 2012] [debug] Rendering cached template project_branches.html.ep.
+[Fri Nov 23 02:36:43 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 02:36:43 2012] [debug] 200 OK (0.001270s, 787.402/s).
+[Fri Nov 23 02:36:53 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:36:53 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:36:53 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 02:36:53 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:36:53 2012] [debug] 200 OK (0.013721s, 72.881/s).
+[Fri Nov 23 02:36:53 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:36:53 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:36:53 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:36:53 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:36:53 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:36:53 2012] [debug] 404 Not Found (0.022250s, 44.944/s).
+[Fri Nov 23 02:36:57 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:36:57 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:36:57 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:36:57 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:36:57 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:36:57 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:37:12 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:37:12 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:37:12 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:37:12 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:37:12 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:37:12 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:37:28 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:37:28 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:37:28 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:37:28 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:37:28 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:37:28 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:37:35 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:37:54 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:37:54 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:37:54 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:37:54 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:37:54 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 02:37:54 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:37:54 2012] [debug] 200 OK (0.016042s, 62.336/s).
+[Fri Nov 23 02:37:55 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:37:55 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:37:55 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:37:55 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:37:55 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:37:55 2012] [debug] 404 Not Found (0.031794s, 31.452/s).
+[Fri Nov 23 02:38:04 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:38:38 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:38:39 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:38:39 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:38:39 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:38:39 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 02:38:39 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:38:39 2012] [debug] 200 OK (0.019017s, 52.585/s).
+[Fri Nov 23 02:38:39 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:38:39 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:38:39 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:38:39 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:38:39 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:38:39 2012] [debug] 404 Not Found (0.024432s, 40.930/s).
+[Fri Nov 23 02:39:28 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:40:21 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:40:21 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:40:21 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:40:21 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:40:22 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 02:40:22 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:40:22 2012] [debug] 200 OK (0.018403s, 54.339/s).
+[Fri Nov 23 02:40:22 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:40:22 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:40:22 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:40:22 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:40:22 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:40:22 2012] [debug] 404 Not Found (0.025098s, 39.844/s).
+[Fri Nov 23 02:40:32 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:40:51 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:40:52 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:40:52 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:40:52 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:40:52 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 02:40:52 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:40:52 2012] [debug] 200 OK (0.020630s, 48.473/s).
+[Fri Nov 23 02:40:52 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:40:52 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:40:52 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:40:52 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:40:52 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:40:52 2012] [debug] 404 Not Found (0.023837s, 41.952/s).
+[Fri Nov 23 02:41:06 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:41:06 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:41:06 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:41:06 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:41:06 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 02:41:06 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:41:06 2012] [debug] 200 OK (0.016328s, 61.244/s).
+[Fri Nov 23 02:41:07 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:41:07 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:41:07 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:41:07 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:41:07 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:41:07 2012] [debug] 404 Not Found (0.031900s, 31.348/s).
+[Fri Nov 23 02:41:11 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:41:11 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:41:11 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 02:41:11 2012] [error] Global symbol "$projectId" requires explicit package name at template project_branches.html.ep line 27.
+22: </table>
+23: </div><!-- .span8 -->
+24: <div class="span4">
+25:     <h3>Options</h3>
+26:     <p>
+27:     <a href="/project/<%= $projectId %>"
+28:        class="btn btn-danger btn-block btn-large">Delete Project</a>
+29:     </p>
+30: </div><!-- .span4 -->
+31: </div><!-- .row -->
+
+[Fri Nov 23 02:41:11 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 02:41:11 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 02:41:11 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:41:11 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:41:11 2012] [debug] 500 Internal Server Error (0.040031s, 24.981/s).
+[Fri Nov 23 02:41:32 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:41:33 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:41:33 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:41:33 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:41:33 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 02:41:33 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:41:33 2012] [debug] 200 OK (0.016346s, 61.177/s).
+[Fri Nov 23 02:41:33 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:41:33 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:41:33 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:41:33 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:41:33 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:41:48 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:41:48 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:41:48 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:41:48 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:41:48 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:41:48 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:42:04 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:42:04 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:42:04 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:42:04 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:42:04 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:42:04 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:42:05 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:42:05 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:42:05 2012] [debug] Rendering template "projects.html.ep".
+[Fri Nov 23 02:42:05 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:42:05 2012] [debug] 200 OK (0.012364s, 80.880/s).
+[Fri Nov 23 02:42:05 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:42:05 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:42:05 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:42:05 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:42:05 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:42:05 2012] [debug] 404 Not Found (0.021700s, 46.083/s).
+[Fri Nov 23 02:42:07 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:42:07 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:42:07 2012] [debug] Rendering cached template project_branches.html.ep.
+[Fri Nov 23 02:42:07 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 02:42:07 2012] [debug] 200 OK (0.001288s, 776.398/s).
+[Fri Nov 23 02:42:19 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:42:19 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:42:19 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:42:19 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:42:19 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:42:19 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:42:35 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:42:35 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:42:35 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:42:35 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:42:35 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:42:35 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:42:50 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:42:54 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:42:55 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:42:55 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:42:55 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:42:55 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 02:42:55 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:42:55 2012] [debug] 200 OK (0.014292s, 69.969/s).
+[Fri Nov 23 02:42:56 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:42:56 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:42:56 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:42:56 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:42:56 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:43:11 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:43:11 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:43:11 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:43:11 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:43:11 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:43:11 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:43:15 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:43:15 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:43:15 2012] [debug] Rendering cached template project_branches.html.ep.
+[Fri Nov 23 02:43:15 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 02:43:15 2012] [debug] 200 OK (0.001888s, 529.661/s).
+[Fri Nov 23 02:43:16 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:43:16 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:43:16 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:43:16 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:43:16 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 02:43:16 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:43:16 2012] [debug] 200 OK (0.016584s, 60.299/s).
+[Fri Nov 23 02:43:16 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:43:16 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:43:16 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:43:16 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:43:16 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:43:28 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:43:28 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:43:28 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:43:28 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:43:28 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 02:43:28 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:43:28 2012] [debug] 200 OK (0.019892s, 50.271/s).
+[Fri Nov 23 02:43:29 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:43:29 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:43:29 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:43:29 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:43:29 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:43:29 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:43:29 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:43:29 2012] [debug] Rendering cached template project_branches.html.ep.
+[Fri Nov 23 02:43:29 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 02:43:29 2012] [debug] 200 OK (0.001251s, 799.361/s).
+[Fri Nov 23 02:43:32 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:43:37 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:43:37 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:43:37 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:43:37 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 02:43:37 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:43:37 2012] [debug] 200 OK (0.018039s, 55.435/s).
+[Fri Nov 23 02:43:38 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:43:38 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:43:38 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:43:38 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:43:38 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 02:43:38 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:43:38 2012] [debug] 200 OK (0.018960s, 52.743/s).
+[Fri Nov 23 02:43:38 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:43:38 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:43:38 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:43:38 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:43:38 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:43:54 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:43:54 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:43:54 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:43:54 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:43:54 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:43:54 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:43:58 2012] [debug] GET /project/0/2 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:43:58 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:43:58 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 02:43:58 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:43:58 2012] [debug] 200 OK (0.012715s, 78.647/s).
+[Fri Nov 23 02:43:59 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:43:59 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:43:59 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:43:59 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:43:59 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:43:59 2012] [debug] 404 Not Found (0.022559s, 44.328/s).
+[Fri Nov 23 02:44:03 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:44:03 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:44:03 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 02:44:03 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 02:44:03 2012] [debug] 200 OK (0.001951s, 512.558/s).
+[Fri Nov 23 02:44:03 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:44:03 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:44:03 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:44:03 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:44:03 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:44:03 2012] [debug] 404 Not Found (0.010708s, 93.388/s).
+[Fri Nov 23 02:44:09 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:44:09 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:44:09 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:44:09 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:44:09 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:44:09 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:44:24 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:44:24 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:44:24 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:44:24 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:44:24 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:44:24 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:44:38 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:45:43 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:45:57 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:49:01 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:49:54 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:50:02 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:50:03 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:50:03 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:50:03 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:50:03 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 02:50:03 2012] [error] Global symbol "$deployed" requires explicit package name at template branch.html.ep line 23.
+18:     </tr>
+19:     <% } %>
+20: </div><!-- .span8 -->
+21: <div class="span4">
+22: <h2>Options</h2>
+23: <% if (!$deployed) { %>
+24: <form class="form-horizontal" action="/deploy" method="POST">
+25:     <div class="control-group">
+26:         <label class="control-label" for="image">Image</label>
+27:         <div class="controls">
+28:             <select name="image" id="image">
+
+[Fri Nov 23 02:50:03 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 02:50:03 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 02:50:03 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:50:03 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:50:03 2012] [debug] 500 Internal Server Error (0.050860s, 19.662/s).
+[Fri Nov 23 02:50:04 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:50:04 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:50:04 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 02:50:04 2012] [error] Global symbol "$deployed" requires explicit package name at template branch.html.ep line 23.
+18:     </tr>
+19:     <% } %>
+20: </div><!-- .span8 -->
+21: <div class="span4">
+22: <h2>Options</h2>
+23: <% if (!$deployed) { %>
+24: <form class="form-horizontal" action="/deploy" method="POST">
+25:     <div class="control-group">
+26:         <label class="control-label" for="image">Image</label>
+27:         <div class="controls">
+28:             <select name="image" id="image">
+
+[Fri Nov 23 02:50:04 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 02:50:04 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 02:50:04 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:50:04 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:50:04 2012] [debug] 500 Internal Server Error (0.021683s, 46.119/s).
+[Fri Nov 23 02:50:10 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:50:18 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:50:18 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:50:18 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:50:18 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:50:18 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 02:50:18 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:50:18 2012] [debug] 200 OK (0.018424s, 54.277/s).
+[Fri Nov 23 02:50:19 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:50:19 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:50:19 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:50:19 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:50:19 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:50:19 2012] [debug] 404 Not Found (0.029113s, 34.349/s).
+[Fri Nov 23 02:50:36 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:50:36 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:50:36 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 02:50:36 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 02:50:36 2012] [debug] 200 OK (0.002081s, 480.538/s).
+[Fri Nov 23 02:50:36 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:50:36 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:50:36 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:50:36 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:50:36 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:50:36 2012] [debug] 404 Not Found (0.007141s, 140.036/s).
+[Fri Nov 23 02:51:14 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:51:15 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:51:15 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:51:15 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:51:15 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 02:51:15 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:51:15 2012] [debug] 200 OK (0.017430s, 57.372/s).
+[Fri Nov 23 02:51:15 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:51:15 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:51:15 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:51:15 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:51:15 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:51:15 2012] [debug] 404 Not Found (0.027967s, 35.756/s).
+[Fri Nov 23 02:51:16 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:51:16 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:51:16 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 02:51:16 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 02:51:16 2012] [debug] 200 OK (0.001501s, 666.223/s).
+[Fri Nov 23 02:51:16 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:51:16 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:51:16 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:51:16 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:51:16 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:51:16 2012] [debug] 404 Not Found (0.011082s, 90.236/s).
+[Fri Nov 23 02:51:23 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:51:35 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:51:35 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:51:35 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:51:35 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 02:51:35 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:51:35 2012] [debug] 200 OK (0.019089s, 52.386/s).
+[Fri Nov 23 02:51:35 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:51:35 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:51:35 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:51:35 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:51:35 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:51:35 2012] [debug] 404 Not Found (0.028657s, 34.895/s).
+[Fri Nov 23 02:52:09 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:52:09 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:52:09 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 02:52:09 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 02:52:09 2012] [debug] 200 OK (0.002189s, 456.830/s).
+[Fri Nov 23 02:52:09 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:52:09 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:52:09 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:52:09 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:52:09 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:52:09 2012] [debug] 404 Not Found (0.011566s, 86.460/s).
+[Fri Nov 23 02:52:10 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:52:10 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:52:10 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:52:10 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:52:10 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 02:52:10 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:52:10 2012] [debug] 200 OK (0.016554s, 60.408/s).
+[Fri Nov 23 02:52:10 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:52:10 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:52:10 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:52:10 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:52:10 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:52:10 2012] [debug] 404 Not Found (0.025803s, 38.755/s).
+[Fri Nov 23 02:53:19 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:53:19 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:53:19 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:53:19 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:53:19 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 02:53:19 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:53:19 2012] [debug] 200 OK (0.022685s, 44.082/s).
+[Fri Nov 23 02:53:19 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:53:19 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:53:19 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:53:19 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:53:19 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:53:19 2012] [debug] 404 Not Found (0.028533s, 35.047/s).
+[Fri Nov 23 02:53:20 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:53:20 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:53:20 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 02:53:20 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 02:53:20 2012] [debug] 200 OK (0.002072s, 482.625/s).
+[Fri Nov 23 02:53:20 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:53:20 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:53:20 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:53:20 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:53:20 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:53:20 2012] [debug] 404 Not Found (0.009558s, 104.624/s).
+[Fri Nov 23 02:53:21 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:53:21 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:53:21 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 02:53:21 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 02:53:21 2012] [debug] 200 OK (0.001821s, 549.149/s).
+[Fri Nov 23 02:53:21 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:53:21 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:53:21 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:53:21 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:53:21 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:53:21 2012] [debug] 404 Not Found (0.008016s, 124.750/s).
+[Fri Nov 23 02:53:23 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:53:23 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:53:23 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 02:53:23 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:53:23 2012] [debug] 200 OK (0.014431s, 69.295/s).
+[Fri Nov 23 02:53:23 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:53:23 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:53:23 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:53:23 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:53:23 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:53:25 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:53:25 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:53:25 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 02:53:25 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 02:53:25 2012] [debug] 200 OK (0.002239s, 446.628/s).
+[Fri Nov 23 02:53:25 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:53:25 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:53:25 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:53:25 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:53:25 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:53:25 2012] [debug] 404 Not Found (0.012104s, 82.617/s).
+[Fri Nov 23 02:53:26 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:53:26 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:53:26 2012] [debug] Rendering template "projects.html.ep".
+[Fri Nov 23 02:53:26 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:53:26 2012] [debug] 200 OK (0.013157s, 76.005/s).
+[Fri Nov 23 02:53:26 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:53:26 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:53:26 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:53:26 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:53:26 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:53:26 2012] [debug] 404 Not Found (0.007459s, 134.066/s).
+[Fri Nov 23 02:53:27 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:53:27 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:53:27 2012] [debug] Rendering cached template project_branches.html.ep.
+[Fri Nov 23 02:53:27 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 02:53:27 2012] [debug] 200 OK (0.002193s, 455.996/s).
+[Fri Nov 23 02:53:29 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:53:29 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:53:29 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 02:53:29 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 02:53:29 2012] [debug] 200 OK (0.001962s, 509.684/s).
+[Fri Nov 23 02:53:29 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:53:29 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:53:29 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:53:29 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:53:29 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:53:29 2012] [debug] 404 Not Found (0.010031s, 99.691/s).
+[Fri Nov 23 02:53:39 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:53:39 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:53:39 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:53:39 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:53:39 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:53:39 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:53:54 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:53:54 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:53:54 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:53:54 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:53:54 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:53:54 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:54:10 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:54:10 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:54:10 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:54:10 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:54:10 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:54:10 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:54:23 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:54:26 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:56:03 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 02:56:04 2012] [info] Listening at "http://*:3000".
+[Fri Nov 23 02:56:06 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 02:56:06 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:56:06 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:56:06 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 02:56:06 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:56:06 2012] [debug] 200 OK (0.020377s, 49.075/s).
+[Fri Nov 23 02:56:06 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:56:06 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:56:06 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:56:06 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:56:06 2012] [debug] Rendering inline template.
+[Fri Nov 23 02:56:06 2012] [debug] 404 Not Found (0.026849s, 37.245/s).
+[Fri Nov 23 02:56:08 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:56:08 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:56:08 2012] [debug] 302 Found (0.001137s, 879.507/s).
+[Fri Nov 23 02:56:08 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:56:08 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:56:08 2012] [debug] Rendering template "projects.html.ep".
+[Fri Nov 23 02:56:08 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:56:08 2012] [debug] 200 OK (0.010705s, 93.414/s).
+[Fri Nov 23 02:56:08 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:56:08 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:56:08 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:56:08 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:56:08 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:56:08 2012] [debug] 404 Not Found (0.007721s, 129.517/s).
+[Fri Nov 23 02:56:10 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:56:10 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:56:10 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 02:56:10 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 02:56:10 2012] [debug] 200 OK (0.014545s, 68.752/s).
+[Fri Nov 23 02:56:10 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:56:10 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:56:10 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:56:10 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:56:10 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 02:56:14 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:56:14 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:56:14 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 02:56:14 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 02:56:14 2012] [debug] 200 OK (0.002337s, 427.899/s).
+[Fri Nov 23 02:56:14 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:56:14 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 02:56:14 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 02:56:14 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:56:14 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 02:56:14 2012] [debug] 404 Not Found (0.007449s, 134.246/s).
+[Fri Nov 23 02:56:25 2012] [debug] Inactivity timeout.
+[Fri Nov 23 02:56:25 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 02:56:25 2012] [debug] Routing to a callback.
+[Fri Nov 23 02:56:25 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 02:56:25 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 02:56:25 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:06:22 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:06:22 2012] [info] Listening at "http://*:3000".
+[Fri Nov 23 03:06:24 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:06:24 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:06:24 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:06:24 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 03:06:24 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:06:24 2012] [debug] 200 OK (0.022465s, 44.514/s).
+[Fri Nov 23 03:06:24 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:06:24 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:06:24 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:06:24 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:06:24 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:06:24 2012] [debug] 404 Not Found (0.021538s, 46.430/s).
+[Fri Nov 23 03:06:26 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:06:26 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:06:26 2012] [debug] 302 Found (0.001440s, 694.444/s).
+[Fri Nov 23 03:06:26 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:06:26 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:06:26 2012] [debug] Rendering template "projects.html.ep".
+[Fri Nov 23 03:06:26 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:06:26 2012] [debug] 200 OK (0.011231s, 89.039/s).
+[Fri Nov 23 03:06:26 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:06:26 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:06:26 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:06:26 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:06:26 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:06:26 2012] [debug] 404 Not Found (0.007382s, 135.465/s).
+[Fri Nov 23 03:06:27 2012] [debug] GET /project/new (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:06:27 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:06:27 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 03:06:27 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:06:27 2012] [debug] 200 OK (0.014678s, 68.129/s).
+[Fri Nov 23 03:06:28 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:06:28 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:06:28 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:06:28 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:06:28 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:06:30 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:06:30 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:06:30 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:06:30 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:06:30 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:06:30 2012] [debug] 404 Not Found (0.012499s, 80.006/s).
+[Fri Nov 23 03:06:43 2012] [debug] Inactivity timeout.
+[Fri Nov 23 03:06:43 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:06:43 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:06:43 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:06:43 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:06:43 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:06:49 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:06:49 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:06:49 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:06:49 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:06:49 2012] [debug] Rendering template "projects.html.ep".
+[Fri Nov 23 03:06:49 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:06:49 2012] [debug] 200 OK (0.016628s, 60.140/s).
+[Fri Nov 23 03:06:49 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:06:49 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:06:49 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:06:49 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:06:49 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:06:49 2012] [debug] 404 Not Found (0.024945s, 40.088/s).
+[Fri Nov 23 03:06:50 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:06:50 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:06:50 2012] [debug] Rendering cached template projects.html.ep.
+[Fri Nov 23 03:06:50 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:06:50 2012] [debug] 200 OK (0.001198s, 834.725/s).
+[Fri Nov 23 03:06:50 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:06:50 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:06:50 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:06:50 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:06:50 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:06:50 2012] [debug] 404 Not Found (0.008322s, 120.163/s).
+[Fri Nov 23 03:06:51 2012] [debug] GET /project/new (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:06:51 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:06:51 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 03:06:51 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:06:51 2012] [debug] 200 OK (0.015110s, 66.181/s).
+[Fri Nov 23 03:06:51 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:06:51 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:06:51 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:06:51 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:06:51 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:07:02 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:07:03 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:07:03 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:07:03 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:07:03 2012] [debug] 302 Found (0.001637s, 610.874/s).
+[Fri Nov 23 03:07:03 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:07:03 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:07:03 2012] [debug] Rendering template "projects.html.ep".
+[Fri Nov 23 03:07:03 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:07:03 2012] [debug] 200 OK (0.014339s, 69.740/s).
+[Fri Nov 23 03:07:04 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:07:04 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:07:04 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:07:04 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:07:04 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:07:04 2012] [debug] 404 Not Found (0.034844s, 28.699/s).
+[Fri Nov 23 03:07:23 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:07:37 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:07:38 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:07:38 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:07:38 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:07:38 2012] [debug] Rendering template "projects.html.ep".
+[Fri Nov 23 03:07:38 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:07:38 2012] [debug] 200 OK (0.015401s, 64.931/s).
+[Fri Nov 23 03:07:38 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:07:38 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:07:38 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:07:38 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:07:38 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:07:38 2012] [debug] 404 Not Found (0.022103s, 45.243/s).
+[Fri Nov 23 03:07:39 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:07:39 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:07:39 2012] [debug] Rendering cached template projects.html.ep.
+[Fri Nov 23 03:07:39 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:07:39 2012] [debug] 200 OK (0.001927s, 518.941/s).
+[Fri Nov 23 03:07:39 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:07:39 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:07:39 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:07:39 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:07:39 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:07:39 2012] [debug] 404 Not Found (0.009918s, 100.827/s).
+[Fri Nov 23 03:07:40 2012] [debug] GET /projects/new (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:07:40 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:07:40 2012] [debug] Rendering template "project_new.html.ep".
+[Fri Nov 23 03:07:40 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:07:40 2012] [debug] 200 OK (0.013935s, 71.762/s).
+[Fri Nov 23 03:07:40 2012] [debug] GET /projects/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:07:40 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:07:40 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:07:40 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:07:40 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:07:40 2012] [debug] 404 Not Found (0.010375s, 96.386/s).
+[Fri Nov 23 03:08:25 2012] [debug] GET /projects/new (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:08:25 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:08:25 2012] [debug] Rendering cached template project_new.html.ep.
+[Fri Nov 23 03:08:25 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:08:25 2012] [debug] 200 OK (0.001517s, 659.196/s).
+[Fri Nov 23 03:08:25 2012] [debug] GET /projects/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:08:25 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:08:25 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:08:25 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:08:25 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:08:25 2012] [debug] 404 Not Found (0.010295s, 97.135/s).
+[Fri Nov 23 03:08:26 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:08:27 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:08:27 2012] [debug] GET /projects/new (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:08:27 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:08:27 2012] [debug] Rendering template "project_new.html.ep".
+[Fri Nov 23 03:08:27 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:08:27 2012] [debug] 200 OK (0.017081s, 58.545/s).
+[Fri Nov 23 03:08:27 2012] [debug] GET /projects/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:08:27 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:08:27 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:08:27 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:08:27 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:08:27 2012] [debug] 404 Not Found (0.023843s, 41.941/s).
+[Fri Nov 23 03:08:45 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:08:45 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:08:45 2012] [debug] GET /projects/new (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:08:45 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:08:45 2012] [debug] Rendering template "project_new.html.ep".
+[Fri Nov 23 03:08:45 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:08:45 2012] [debug] 200 OK (0.015391s, 64.973/s).
+[Fri Nov 23 03:08:45 2012] [debug] GET /projects/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:08:45 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:08:45 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:08:45 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:08:45 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:08:45 2012] [debug] 404 Not Found (0.023275s, 42.965/s).
+[Fri Nov 23 03:08:46 2012] [debug] GET /projects/new (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:08:46 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:08:46 2012] [debug] Rendering cached template project_new.html.ep.
+[Fri Nov 23 03:08:46 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:08:46 2012] [debug] 200 OK (0.001973s, 506.842/s).
+[Fri Nov 23 03:08:46 2012] [debug] GET /projects/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:08:46 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:08:46 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:08:46 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:08:46 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:08:46 2012] [debug] 404 Not Found (0.009643s, 103.702/s).
+[Fri Nov 23 03:09:47 2012] [debug] GET /projects/new (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:09:47 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:09:47 2012] [debug] Rendering cached template project_new.html.ep.
+[Fri Nov 23 03:09:47 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:09:47 2012] [debug] 200 OK (0.002021s, 494.805/s).
+[Fri Nov 23 03:09:47 2012] [debug] GET /projects/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:09:47 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:09:47 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:09:47 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:09:47 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:09:47 2012] [debug] 404 Not Found (0.008629s, 115.888/s).
+[Fri Nov 23 03:09:47 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:09:47 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:09:47 2012] [debug] GET /projects/new (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:09:47 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:09:47 2012] [debug] Rendering template "project_new.html.ep".
+[Fri Nov 23 03:09:47 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:09:47 2012] [debug] 200 OK (0.015267s, 65.501/s).
+[Fri Nov 23 03:09:47 2012] [debug] GET /projects/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:09:48 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:09:48 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:09:48 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:09:48 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:09:48 2012] [debug] 404 Not Found (0.025588s, 39.081/s).
+[Fri Nov 23 03:09:51 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:09:51 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:09:51 2012] [debug] Rendering template "projects.html.ep".
+[Fri Nov 23 03:09:51 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:09:51 2012] [debug] 200 OK (0.013389s, 74.688/s).
+[Fri Nov 23 03:09:51 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:09:51 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:09:51 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:09:51 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:09:51 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:09:51 2012] [debug] 404 Not Found (0.009631s, 103.831/s).
+[Fri Nov 23 03:09:53 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:09:53 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:09:53 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 03:09:53 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:09:53 2012] [debug] 200 OK (0.015128s, 66.103/s).
+[Fri Nov 23 03:09:53 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:09:53 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:09:53 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:09:53 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:09:53 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:09:55 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:09:55 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:09:55 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 03:09:55 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:09:55 2012] [debug] 200 OK (0.015899s, 62.897/s).
+[Fri Nov 23 03:09:55 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:09:55 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:09:55 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:09:55 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:09:55 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:09:55 2012] [debug] 404 Not Found (0.010343s, 96.684/s).
+[Fri Nov 23 03:10:08 2012] [debug] Inactivity timeout.
+[Fri Nov 23 03:10:08 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:10:08 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:10:08 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:10:08 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:10:08 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:10:23 2012] [debug] Inactivity timeout.
+[Fri Nov 23 03:10:23 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:10:23 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:10:23 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:10:23 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:10:23 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:10:38 2012] [debug] Inactivity timeout.
+[Fri Nov 23 03:10:41 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:10:43 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:10:43 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:10:43 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:10:43 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 03:10:43 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:10:43 2012] [debug] 200 OK (0.016636s, 60.111/s).
+[Fri Nov 23 03:10:43 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:10:43 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:10:43 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:10:43 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:10:43 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:10:43 2012] [debug] 404 Not Found (0.026639s, 37.539/s).
+[Fri Nov 23 03:11:06 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:11:22 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:11:22 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:11:22 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:11:22 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:11:22 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 03:11:22 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:11:22 2012] [debug] 200 OK (0.020147s, 49.635/s).
+[Fri Nov 23 03:11:22 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:11:22 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:11:22 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:11:22 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:11:22 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:11:22 2012] [debug] 404 Not Found (0.023085s, 43.318/s).
+[Fri Nov 23 03:12:00 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:12:02 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:12:02 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:12:02 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:12:02 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 03:12:02 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:12:02 2012] [debug] 200 OK (0.024200s, 41.322/s).
+[Fri Nov 23 03:12:02 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:12:02 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:12:02 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:12:02 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:12:02 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:12:02 2012] [debug] 404 Not Found (0.023799s, 42.019/s).
+[Fri Nov 23 03:12:15 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:12:16 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:12:16 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:12:16 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:12:16 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 03:12:16 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:12:16 2012] [debug] 200 OK (0.021728s, 46.024/s).
+[Fri Nov 23 03:12:16 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:12:16 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:12:16 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:12:16 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:12:16 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:12:16 2012] [debug] 404 Not Found (0.038721s, 25.826/s).
+[Fri Nov 23 03:12:22 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:12:22 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:12:22 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 03:12:22 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:12:22 2012] [debug] 200 OK (0.013706s, 72.961/s).
+[Fri Nov 23 03:12:22 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:12:22 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:12:22 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:12:22 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:12:22 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:12:37 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:13:03 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:13:05 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:13:05 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:13:05 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:13:05 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:13:05 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 03:13:05 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:13:05 2012] [debug] 200 OK (0.020774s, 48.137/s).
+[Fri Nov 23 03:13:06 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:13:06 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:13:06 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:13:06 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:13:06 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:13:06 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:13:06 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:13:06 2012] [debug] Rendering cached template project_branches.html.ep.
+[Fri Nov 23 03:13:06 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:13:06 2012] [debug] 200 OK (0.002124s, 470.810/s).
+[Fri Nov 23 03:13:07 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:13:07 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:13:07 2012] [debug] Rendering cached template project_branches.html.ep.
+[Fri Nov 23 03:13:07 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:13:07 2012] [debug] 200 OK (0.001254s, 797.448/s).
+[Fri Nov 23 03:13:21 2012] [debug] Inactivity timeout.
+[Fri Nov 23 03:13:21 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:13:21 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:13:21 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:13:21 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:13:21 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:13:22 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:13:22 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:13:22 2012] [debug] Rendering cached template project_branches.html.ep.
+[Fri Nov 23 03:13:22 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:13:22 2012] [debug] 200 OK (0.002149s, 465.333/s).
+[Fri Nov 23 03:13:22 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:13:22 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:13:22 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:13:22 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:13:22 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 03:13:22 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:13:22 2012] [debug] 200 OK (0.016006s, 62.477/s).
+[Fri Nov 23 03:13:23 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:13:23 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:13:23 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:13:23 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:13:23 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:13:27 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:13:27 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:13:27 2012] [debug] Rendering template "projects.html.ep".
+[Fri Nov 23 03:13:27 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:13:27 2012] [debug] 200 OK (0.013609s, 73.481/s).
+[Fri Nov 23 03:13:27 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:13:27 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:13:27 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:13:27 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:13:27 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:13:27 2012] [debug] 404 Not Found (0.023547s, 42.468/s).
+[Fri Nov 23 03:13:31 2012] [debug] GET /projects/new (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:13:31 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:13:31 2012] [debug] Rendering template "project_new.html.ep".
+[Fri Nov 23 03:13:31 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:13:31 2012] [debug] 200 OK (0.014831s, 67.426/s).
+[Fri Nov 23 03:13:31 2012] [debug] GET /projects/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:13:31 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:13:31 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:13:31 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:13:31 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:13:31 2012] [debug] 404 Not Found (0.011274s, 88.700/s).
+[Fri Nov 23 03:13:33 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:13:33 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:13:33 2012] [debug] Rendering cached template projects.html.ep.
+[Fri Nov 23 03:13:33 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:13:33 2012] [debug] 200 OK (0.001261s, 793.021/s).
+[Fri Nov 23 03:13:33 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:13:33 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:13:33 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:13:33 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:13:33 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:13:33 2012] [debug] 404 Not Found (0.007760s, 128.866/s).
+[Fri Nov 23 03:13:35 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:13:35 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:13:35 2012] [debug] Rendering cached template project_branches.html.ep.
+[Fri Nov 23 03:13:35 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:13:35 2012] [debug] 200 OK (0.001373s, 728.332/s).
+[Fri Nov 23 03:13:37 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:13:37 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:13:37 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 03:13:37 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:13:37 2012] [debug] 200 OK (0.014841s, 67.381/s).
+[Fri Nov 23 03:13:37 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:13:37 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:13:37 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:13:37 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:13:37 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:13:37 2012] [debug] 404 Not Found (0.010702s, 93.440/s).
+[Fri Nov 23 03:13:38 2012] [debug] Inactivity timeout.
+[Fri Nov 23 03:13:38 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:13:38 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:13:38 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:13:38 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:13:38 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:13:44 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:13:52 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:13:52 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:13:52 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:13:52 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 03:13:52 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:13:52 2012] [debug] 200 OK (0.020008s, 49.980/s).
+[Fri Nov 23 03:13:52 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:13:52 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:13:52 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:13:52 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:13:52 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:13:52 2012] [debug] 404 Not Found (0.022666s, 44.119/s).
+[Fri Nov 23 03:13:53 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:13:58 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:13:58 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:13:58 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:13:58 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 03:13:58 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:13:58 2012] [debug] 200 OK (0.018641s, 53.645/s).
+[Fri Nov 23 03:13:58 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:14:01 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:14:03 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:14:03 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:14:03 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:14:03 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 03:14:03 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:14:03 2012] [debug] 200 OK (0.017706s, 56.478/s).
+[Fri Nov 23 03:14:03 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:14:03 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:14:03 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:14:03 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:14:03 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:14:03 2012] [debug] 404 Not Found (0.022019s, 45.415/s).
+[Fri Nov 23 03:14:10 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:14:11 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:14:11 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:14:11 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:14:11 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 03:14:11 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:14:11 2012] [debug] 200 OK (0.022937s, 43.598/s).
+[Fri Nov 23 03:14:11 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:14:11 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:14:11 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:14:11 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:14:11 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:14:11 2012] [debug] 404 Not Found (0.031680s, 31.566/s).
+[Fri Nov 23 03:14:21 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:14:22 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:14:22 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:14:22 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:14:22 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 03:14:22 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:14:22 2012] [debug] 200 OK (0.019937s, 50.158/s).
+[Fri Nov 23 03:14:22 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:14:22 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:14:22 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:14:22 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:14:22 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:14:22 2012] [debug] 404 Not Found (0.025363s, 39.428/s).
+[Fri Nov 23 03:14:24 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:14:24 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:14:24 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 03:14:24 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:14:24 2012] [debug] 200 OK (0.001339s, 746.826/s).
+[Fri Nov 23 03:14:24 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:14:24 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:14:24 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:14:24 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:14:24 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:14:24 2012] [debug] 404 Not Found (0.007986s, 125.219/s).
+[Fri Nov 23 03:14:30 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:14:30 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:14:30 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 03:14:30 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:14:30 2012] [debug] 200 OK (0.001768s, 565.611/s).
+[Fri Nov 23 03:14:30 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:14:30 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:14:30 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:14:30 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:14:30 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:14:30 2012] [debug] 404 Not Found (0.012241s, 81.693/s).
+[Fri Nov 23 03:14:31 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:14:31 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:14:31 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:14:31 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:14:31 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 03:14:31 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:14:31 2012] [debug] 200 OK (0.021258s, 47.041/s).
+[Fri Nov 23 03:14:31 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:14:31 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:14:31 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:14:31 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:14:31 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:14:31 2012] [debug] 404 Not Found (0.030142s, 33.176/s).
+[Fri Nov 23 03:14:59 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:15:01 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:15:01 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:15:01 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:15:01 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 03:15:01 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:15:01 2012] [debug] 200 OK (0.017401s, 57.468/s).
+[Fri Nov 23 03:15:01 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:15:01 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:15:01 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:15:01 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:15:01 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:15:01 2012] [debug] 404 Not Found (0.027664s, 36.148/s).
+[Fri Nov 23 03:15:02 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:15:02 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:15:02 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 03:15:02 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:15:02 2012] [debug] 200 OK (0.002279s, 438.789/s).
+[Fri Nov 23 03:15:02 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:15:02 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:15:02 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:15:02 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:15:02 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:15:02 2012] [debug] 404 Not Found (0.009297s, 107.562/s).
+[Fri Nov 23 03:15:27 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:15:27 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:15:27 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 03:15:27 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:15:27 2012] [debug] 200 OK (0.002143s, 466.636/s).
+[Fri Nov 23 03:15:28 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:15:28 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:15:28 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:15:28 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:15:28 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:15:28 2012] [debug] 404 Not Found (0.007541s, 132.608/s).
+[Fri Nov 23 03:15:28 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:15:28 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:15:28 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 03:15:28 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:15:28 2012] [debug] 200 OK (0.002738s, 365.230/s).
+[Fri Nov 23 03:15:28 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:15:28 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:15:28 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:15:28 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:15:28 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:15:28 2012] [debug] 404 Not Found (0.009344s, 107.021/s).
+[Fri Nov 23 03:16:22 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:16:23 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:16:23 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:16:23 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:16:23 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 03:16:23 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:16:23 2012] [debug] 200 OK (0.017581s, 56.880/s).
+[Fri Nov 23 03:16:23 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:16:23 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:16:23 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:16:23 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:16:23 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:16:23 2012] [debug] 404 Not Found (0.021443s, 46.635/s).
+[Fri Nov 23 03:16:23 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:16:23 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:16:23 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 03:16:23 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:16:23 2012] [debug] 200 OK (0.002461s, 406.339/s).
+[Fri Nov 23 03:16:24 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:16:24 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:16:24 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:16:24 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:16:24 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:16:24 2012] [debug] 404 Not Found (0.013088s, 76.406/s).
+[Fri Nov 23 03:16:24 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:16:24 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:16:24 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 03:16:24 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:16:24 2012] [debug] 200 OK (0.002542s, 393.391/s).
+[Fri Nov 23 03:16:24 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:16:24 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:16:24 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:16:24 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:16:24 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:16:24 2012] [debug] 404 Not Found (0.010460s, 95.602/s).
+[Fri Nov 23 03:16:34 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:16:34 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:16:34 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:16:34 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:16:34 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 03:16:34 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:16:34 2012] [debug] 200 OK (0.017836s, 56.066/s).
+[Fri Nov 23 03:16:35 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:16:35 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:16:35 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:16:35 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:16:35 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:16:35 2012] [debug] 404 Not Found (0.022992s, 43.493/s).
+[Fri Nov 23 03:16:38 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:16:38 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:16:38 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:16:38 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:16:38 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 03:16:38 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:16:38 2012] [debug] 200 OK (0.017220s, 58.072/s).
+[Fri Nov 23 03:16:38 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:16:38 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:16:38 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:16:38 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:16:38 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:16:38 2012] [debug] 404 Not Found (0.026168s, 38.215/s).
+[Fri Nov 23 03:17:15 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:17:15 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:17:15 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:17:15 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:17:15 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 03:17:15 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:17:15 2012] [debug] 200 OK (0.020541s, 48.683/s).
+[Fri Nov 23 03:17:15 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:17:15 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:17:15 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:17:15 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:17:15 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:17:15 2012] [debug] 404 Not Found (0.026278s, 38.055/s).
+[Fri Nov 23 03:17:27 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 03:17:28 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 03:17:28 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:17:28 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:17:28 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 03:17:28 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:17:28 2012] [debug] 200 OK (0.018218s, 54.891/s).
+[Fri Nov 23 03:17:28 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:17:28 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:17:28 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:17:28 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:17:28 2012] [debug] Rendering inline template.
+[Fri Nov 23 03:17:28 2012] [debug] 404 Not Found (0.025341s, 39.462/s).
+[Fri Nov 23 03:17:32 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:17:32 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:17:32 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 03:17:32 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:17:32 2012] [debug] 200 OK (0.014720s, 67.935/s).
+[Fri Nov 23 03:17:32 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:17:32 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:17:32 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:17:32 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:17:32 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:17:35 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:17:35 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:17:35 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 03:17:35 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:17:35 2012] [debug] 200 OK (0.001508s, 663.130/s).
+[Fri Nov 23 03:17:35 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:17:35 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:17:35 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:17:35 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:17:35 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:17:35 2012] [debug] 404 Not Found (0.011529s, 86.738/s).
+[Fri Nov 23 03:17:37 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:17:37 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:17:37 2012] [debug] Rendering template "projects.html.ep".
+[Fri Nov 23 03:17:37 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 03:17:37 2012] [debug] 200 OK (0.014095s, 70.947/s).
+[Fri Nov 23 03:17:37 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:17:37 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:17:37 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:17:37 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:17:37 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:17:37 2012] [debug] 404 Not Found (0.011593s, 86.259/s).
+[Fri Nov 23 03:17:47 2012] [debug] Inactivity timeout.
+[Fri Nov 23 03:17:47 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:17:47 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:17:47 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:17:47 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:17:47 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:17:48 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:17:48 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:17:48 2012] [debug] Rendering cached template project_branches.html.ep.
+[Fri Nov 23 03:17:48 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:17:48 2012] [debug] 200 OK (0.001662s, 601.685/s).
+[Fri Nov 23 03:18:02 2012] [debug] Inactivity timeout.
+[Fri Nov 23 03:18:02 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:18:02 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:18:02 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:18:02 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:18:02 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:18:17 2012] [debug] Inactivity timeout.
+[Fri Nov 23 03:18:17 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:18:17 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:18:17 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:18:17 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:18:17 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:18:33 2012] [debug] Inactivity timeout.
+[Fri Nov 23 03:18:33 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:18:33 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:18:33 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:18:33 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:18:33 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:18:48 2012] [debug] Inactivity timeout.
+[Fri Nov 23 03:22:27 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:22:27 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:22:27 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 03:22:27 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:22:27 2012] [debug] 200 OK (0.001548s, 645.995/s).
+[Fri Nov 23 03:22:27 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:22:27 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:22:27 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:22:27 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:22:27 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:22:27 2012] [debug] 404 Not Found (0.008021s, 124.673/s).
+[Fri Nov 23 03:22:31 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:22:31 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:22:31 2012] [debug] 302 Found (0.001051s, 951.475/s).
+[Fri Nov 23 03:22:31 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:22:31 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:22:31 2012] [debug] Rendering cached template projects.html.ep.
+[Fri Nov 23 03:22:31 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:22:31 2012] [debug] 200 OK (0.001765s, 566.572/s).
+[Fri Nov 23 03:22:31 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:22:31 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:22:31 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:22:31 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:22:31 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:22:31 2012] [debug] 404 Not Found (0.008867s, 112.778/s).
+[Fri Nov 23 03:22:33 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:22:33 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:22:33 2012] [debug] Rendering cached template project_branches.html.ep.
+[Fri Nov 23 03:22:33 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:22:33 2012] [debug] 200 OK (0.002214s, 451.671/s).
+[Fri Nov 23 03:22:33 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:22:33 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:22:33 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:22:33 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:22:33 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:22:34 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:22:34 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:22:34 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 03:22:34 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:22:34 2012] [debug] 200 OK (0.002345s, 426.439/s).
+[Fri Nov 23 03:22:34 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:22:34 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:22:34 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:22:34 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:22:34 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:22:34 2012] [debug] 404 Not Found (0.012694s, 78.777/s).
+[Fri Nov 23 03:22:48 2012] [debug] Inactivity timeout.
+[Fri Nov 23 03:22:48 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:22:48 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:22:48 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:22:48 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:22:48 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:23:03 2012] [debug] Inactivity timeout.
+[Fri Nov 23 03:23:03 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:23:03 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:23:03 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:23:03 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:23:03 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:23:19 2012] [debug] Inactivity timeout.
+[Fri Nov 23 03:23:58 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:23:58 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:23:58 2012] [debug] Rendering cached template projects.html.ep.
+[Fri Nov 23 03:23:58 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:23:58 2012] [debug] 200 OK (0.001693s, 590.667/s).
+[Fri Nov 23 03:23:58 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:23:58 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:23:58 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:23:58 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:23:58 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:23:58 2012] [debug] 404 Not Found (0.009632s, 103.821/s).
+[Fri Nov 23 03:24:00 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:24:00 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:24:00 2012] [debug] Rendering cached template project_branches.html.ep.
+[Fri Nov 23 03:24:00 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:24:00 2012] [debug] 200 OK (0.002246s, 445.236/s).
+[Fri Nov 23 03:24:00 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:24:00 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:24:00 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:24:00 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:24:00 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:24:00 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:24:00 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:24:00 2012] [debug] Rendering cached template projects.html.ep.
+[Fri Nov 23 03:24:00 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:24:00 2012] [debug] 200 OK (0.001858s, 538.213/s).
+[Fri Nov 23 03:24:01 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:24:01 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:24:01 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:24:01 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:24:01 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:24:01 2012] [debug] 404 Not Found (0.008149s, 122.714/s).
+[Fri Nov 23 03:24:01 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:24:01 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:24:01 2012] [debug] Rendering cached template project_branches.html.ep.
+[Fri Nov 23 03:24:01 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:24:01 2012] [debug] 200 OK (0.002234s, 447.628/s).
+[Fri Nov 23 03:24:03 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:24:03 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:24:03 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 03:24:03 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:24:03 2012] [debug] 200 OK (0.002386s, 419.111/s).
+[Fri Nov 23 03:24:03 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:24:03 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:24:03 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:24:03 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:24:03 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:24:03 2012] [debug] 404 Not Found (0.007850s, 127.389/s).
+[Fri Nov 23 03:24:15 2012] [debug] Inactivity timeout.
+[Fri Nov 23 03:24:15 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:24:15 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:24:15 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:24:15 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:24:15 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:24:30 2012] [debug] Inactivity timeout.
+[Fri Nov 23 03:24:30 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:24:30 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:24:30 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:24:30 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:24:30 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:24:45 2012] [debug] Inactivity timeout.
+[Fri Nov 23 03:24:45 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:24:45 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:24:45 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 03:24:45 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 03:24:45 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 03:25:01 2012] [debug] Inactivity timeout.
+[Fri Nov 23 03:54:51 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:54:51 2012] [debug] Routing to a callback.
+[Fri Nov 23 03:54:51 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 03:54:51 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 03:54:51 2012] [debug] 200 OK (0.008266s, 120.977/s).
+[Fri Nov 23 03:54:51 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 03:54:51 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 03:54:51 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 03:54:51 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:54:51 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 03:54:51 2012] [debug] 404 Not Found (0.014101s, 70.917/s).
+[Fri Nov 23 04:02:52 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 04:02:52 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 04:02:52 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:02:52 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:02:52 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 04:02:52 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 04:02:53 2012] [debug] 200 OK (0.021123s, 47.342/s).
+[Fri Nov 23 04:02:53 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:02:53 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:02:53 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:02:53 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:02:53 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:02:53 2012] [debug] 404 Not Found (0.027061s, 36.954/s).
+[Fri Nov 23 04:02:54 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:02:54 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:02:54 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 04:02:54 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 04:02:54 2012] [debug] 200 OK (0.002287s, 437.254/s).
+[Fri Nov 23 04:02:54 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:02:54 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:02:54 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:02:54 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:02:54 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:02:54 2012] [debug] 404 Not Found (0.009281s, 107.747/s).
+[Fri Nov 23 04:03:28 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 04:03:28 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 04:03:28 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:03:28 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:03:28 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 04:03:28 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 04:03:28 2012] [debug] 200 OK (0.018470s, 54.142/s).
+[Fri Nov 23 04:03:29 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:03:29 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:03:29 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:03:29 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:03:29 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:03:29 2012] [debug] 404 Not Found (0.023491s, 42.569/s).
+[Fri Nov 23 04:03:37 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:03:37 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:03:37 2012] [debug] Rendering template "project_branches.html.ep".
+[Fri Nov 23 04:03:37 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 04:03:37 2012] [debug] 200 OK (0.016749s, 59.705/s).
+[Fri Nov 23 04:03:37 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:03:37 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:03:37 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 04:03:37 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 04:03:37 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 04:03:38 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:03:38 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:03:38 2012] [debug] Rendering template "projects.html.ep".
+[Fri Nov 23 04:03:38 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 04:03:38 2012] [debug] 200 OK (0.016480s, 60.680/s).
+[Fri Nov 23 04:03:38 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:03:38 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:03:38 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:03:38 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:03:38 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:03:38 2012] [debug] 404 Not Found (0.010752s, 93.006/s).
+[Fri Nov 23 04:03:39 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:03:39 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:03:39 2012] [debug] Rendering cached template project_branches.html.ep.
+[Fri Nov 23 04:03:39 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 04:03:39 2012] [debug] 200 OK (0.001381s, 724.113/s).
+[Fri Nov 23 04:03:44 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:03:44 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:03:44 2012] [debug] Rendering cached template projects.html.ep.
+[Fri Nov 23 04:03:44 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 04:03:44 2012] [debug] 200 OK (0.002057s, 486.145/s).
+[Fri Nov 23 04:03:44 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:03:44 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:03:44 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:03:44 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:03:44 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:03:44 2012] [debug] 404 Not Found (0.012419s, 80.522/s).
+[Fri Nov 23 04:03:45 2012] [debug] GET /projects/new (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:03:45 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:03:45 2012] [debug] Rendering template "project_new.html.ep".
+[Fri Nov 23 04:03:45 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 04:03:45 2012] [debug] 200 OK (0.016370s, 61.087/s).
+[Fri Nov 23 04:03:45 2012] [debug] GET /projects/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:03:45 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:03:45 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:03:45 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:03:45 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:03:45 2012] [debug] 404 Not Found (0.009703s, 103.061/s).
+[Fri Nov 23 04:03:49 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:03:49 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:03:49 2012] [debug] Rendering cached template projects.html.ep.
+[Fri Nov 23 04:03:49 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 04:03:49 2012] [debug] 200 OK (0.001214s, 823.723/s).
+[Fri Nov 23 04:03:49 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:03:49 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:03:49 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:03:49 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:03:49 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:03:49 2012] [debug] 404 Not Found (0.010374s, 96.395/s).
+[Fri Nov 23 04:03:50 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:03:50 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:03:50 2012] [debug] Rendering cached template project_branches.html.ep.
+[Fri Nov 23 04:03:50 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 04:03:50 2012] [debug] 200 OK (0.001910s, 523.560/s).
+[Fri Nov 23 04:03:52 2012] [debug] Inactivity timeout.
+[Fri Nov 23 04:03:52 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:03:52 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:03:52 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 04:03:52 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 04:03:52 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 04:04:07 2012] [debug] Inactivity timeout.
+[Fri Nov 23 04:04:07 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:04:07 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:04:07 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 04:04:07 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 04:04:07 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 04:04:23 2012] [debug] Inactivity timeout.
+[Fri Nov 23 04:04:23 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:04:23 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:04:23 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 04:04:23 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 04:04:23 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 04:04:23 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:04:23 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:04:23 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 04:04:23 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 04:04:23 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 04:04:38 2012] [debug] Inactivity timeout.
+[Fri Nov 23 04:04:38 2012] [debug] Inactivity timeout.
+[Fri Nov 23 04:09:19 2012] [debug] GET /projects (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:09:19 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:09:19 2012] [debug] Rendering cached template projects.html.ep.
+[Fri Nov 23 04:09:19 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 04:09:19 2012] [debug] 200 OK (0.001580s, 632.911/s).
+[Fri Nov 23 04:09:19 2012] [debug] GET /ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:09:19 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:09:19 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:09:19 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:09:19 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:09:19 2012] [debug] 404 Not Found (0.010719s, 93.292/s).
+[Fri Nov 23 04:09:21 2012] [debug] GET /project/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:09:21 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:09:21 2012] [debug] Rendering cached template project_branches.html.ep.
+[Fri Nov 23 04:09:21 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 04:09:21 2012] [debug] 200 OK (0.002127s, 470.146/s).
+[Fri Nov 23 04:09:21 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:09:21 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:09:21 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 04:09:21 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 04:09:21 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 04:09:23 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:09:23 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:09:23 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 04:09:23 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 04:09:23 2012] [debug] 200 OK (0.001927s, 518.941/s).
+[Fri Nov 23 04:09:23 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:09:23 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:09:23 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:09:23 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:09:23 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:09:23 2012] [debug] 404 Not Found (0.009457s, 105.742/s).
+[Fri Nov 23 04:09:36 2012] [debug] Inactivity timeout.
+[Fri Nov 23 04:09:36 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:09:36 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:09:36 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 04:09:36 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 04:09:36 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 04:09:52 2012] [debug] Inactivity timeout.
+[Fri Nov 23 04:09:52 2012] [debug] GET /project/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:09:52 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:09:52 2012] [debug] Template "branch.ico.ep" not found.
+[Fri Nov 23 04:09:52 2012] [debug] Template "projectpidbid.ico.ep" not found.
+[Fri Nov 23 04:09:52 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov 23 04:10:07 2012] [debug] Inactivity timeout.
+[Fri Nov 23 04:10:16 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:10:16 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:10:16 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 04:10:16 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 04:10:16 2012] [debug] 200 OK (0.001842s, 542.888/s).
+[Fri Nov 23 04:10:16 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:10:16 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:10:16 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:10:16 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:10:16 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:10:16 2012] [debug] 404 Not Found (0.009618s, 103.972/s).
+[Fri Nov 23 04:10:16 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 04:10:16 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 04:10:16 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:10:16 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:10:16 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 04:10:16 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 04:10:16 2012] [debug] 200 OK (0.025040s, 39.936/s).
+[Fri Nov 23 04:10:17 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:10:17 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:10:17 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:10:17 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:10:17 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:10:17 2012] [debug] 404 Not Found (0.034339s, 29.121/s).
+[Fri Nov 23 04:10:39 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:10:39 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:10:39 2012] [debug] Rendering cached template branch.html.ep.
+[Fri Nov 23 04:10:39 2012] [debug] Rendering cached template layouts/main.html.ep.
+[Fri Nov 23 04:10:39 2012] [debug] 200 OK (0.001358s, 736.377/s).
+[Fri Nov 23 04:10:39 2012] [debug] Reading config file "/Users/gatlinjohnson/Projects/deployrable/app.conf".
+[Fri Nov 23 04:10:40 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 04:10:40 2012] [debug] GET /project/0/0 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:10:40 2012] [debug] Routing to a callback.
+[Fri Nov 23 04:10:40 2012] [debug] Rendering template "branch.html.ep".
+[Fri Nov 23 04:10:40 2012] [debug] Rendering template "layouts/main.html.ep".
+[Fri Nov 23 04:10:40 2012] [debug] 200 OK (0.030402s, 32.893/s).
+[Fri Nov 23 04:10:40 2012] [debug] GET /project/0/ico/favicon.ico (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11).
+[Fri Nov 23 04:10:40 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:10:40 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:10:40 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:10:40 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:10:40 2012] [debug] 404 Not Found (0.029762s, 33.600/s).

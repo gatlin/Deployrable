@@ -1,0 +1,31 @@
+% layout 'main';
+% title $title;
+
+<div class="row">
+<div class="span8">
+<h2>Branches</h2>
+<table class="table table-striped">
+<thead>
+<tr>
+    <th>Name</th>
+</tr>
+</thead>
+<tbody>
+<% foreach my $branch (@$branches) { %>
+<tr>
+    <td>
+    <a href="/project/<%= $project->{id} %>/<%= $branch->{id} %>"><%= $branch->{name} %></a>
+    </td>
+</tr>
+<% } %>
+</tbody>
+</table>
+</div><!-- .span8 -->
+<div class="span4">
+    <h3>Options</h3>
+    <p class="well">
+    <a href="/project/<%= $project->{id} %>"
+       class="btn btn-danger btn-block btn-large">Delete Project</a>
+    </p>
+</div><!-- .span4 -->
+</div><!-- .row -->

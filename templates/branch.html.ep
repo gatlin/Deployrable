@@ -1,0 +1,65 @@
+% layout 'main';
+% title $title;
+<div class="row">
+<div class="span8">
+    <h2>Running instances</h2>
+    <% if (scalar @{$instances}) { %>
+    <table class="table table-condensed table-striped">
+    <thead>
+        <tr>
+            <th>Instance #</th>
+            <th>Keypair</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+    <% foreach my $instance (@$instances) { %>
+    <tr>
+        <td><%= $instance->{name} %></td>
+        <td><%= $instance->{key_name} %></td>
+        <td>
+            <a href='#' class="btn btn-warning btn-mini">Stop</a>
+            <a href="#" class="btn btn-mini">Pause</a>
+            <a href="#" class="btn btn-mini">Restart</a>
+        </td>
+    </tr>
+    <% } %>
+    </tbody>
+    </table>
+    <% } else { %>
+    <p><strong>No running instances!</strong></p>
+    <% } %>
+</div><!-- .span8 -->
+<div class="span4">
+<form class="form well" action="/deploy" method="POST">
+    <legend>Deploy new instance</legend>
+    <div class="control-group">
+        <label class="control-label" for="image">Image</label>
+        <div class="controls">
+            <select name="image" id="image">
+            <% foreach my $i (@$images) { %>
+                <option value="<%= $i->{id} %>"><%= $i->{name} %></option>
+            <% } %>
+            </select>
+        </div><!-- .controls -->
+    </div><!-- .control-group -->
+    <div class="control-group">
+        <label class="control-label" for="flavor">Flavors</label>
+        <div class="controls">
+            <select name="flavor" id="flavor">
+            <% foreach my $f (@$flavors) { %>
+                <option value="<%= $f->{id} %>"><%= $f->{name} %></option>
+            <% } %>
+            </select>
+        </div><!-- .controls -->
+    </div><!-- .control-group -->
+    <input type="hidden" value="<%= $branchId %>" name="branchId">
+    <input type="hidden" value="<%= $projectId %>" name="projectId">
+    <div class="control-group">
+        <div class="controls">
+            <button type="submit" class="btn btn-primary">Deploy</button>
+        </div><!-- .controls -->
+    </div><!-- .control-group -->
+</form>
+</div><!-- .span4 -->
+</div><!-- .row -->
