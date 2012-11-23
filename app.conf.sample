@@ -10,3 +10,7 @@ novauser:
 novapass:
 novacertname:
 novacertpath:
+hypnotoad:
+  listen:
+    - 'http://*:8081'
+  workers:
