@@ -2,7 +2,7 @@
 % title $title;
 <div class="row">
 <div class="span8">
-<form method="POST" action="/project/new" class="form-horizontal">
+<form method="POST" action="/projects/new" class="form-horizontal">
 <fieldset>
 <legend>New Project</legend>
 <div class="control-group">
@@ -27,6 +27,12 @@
     <label class="control-label" for="path">Repo path</label>
     <div class="controls">
         <input type="text" id="path" name="path" placeholder="Optional">
+    </div><!-- .controls -->
+</div><!-- .control-group -->
+<div class="control-group">
+    <label class="control-label" for="port">Server port</label>
+    <div class="controls">
+        <input type="text" id="port" name="port" placeholder="Optional">
     </div><!-- .controls -->
 </div><!-- .control-group -->
 <div class="controls">

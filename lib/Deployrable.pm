@@ -176,7 +176,27 @@ sub startup {
         my $title = $self->param('title');
         my $host = $self->param('host');
         my $repo = $self->param('repo');
-        my $path = $self->param('path');
+        my $path = $self->param('path') // '';
+        my $port = $self->param('port') // 0;
+
+        my $sth = $self->db->prepare("
+            insert into projects (
+                title,
+                host,
+                repo,
+                path,
+                port
+            )
+            values (
+                '$title',
+                '$host',
+                '$repo',
+                '$path',
+                $port)
+                ;
+        ");
+
+        my $ret = $sth->execute;
 
         $self->redirect_to('/projects');
     });
