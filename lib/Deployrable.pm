@@ -103,8 +103,10 @@ sub startup {
         ];
 
         my $instances = [
-            {id => 0, name => "Instance 1", key_name => "gatlin"},
-            {id => 1, name => "Instance 2", key_name => "marin"},
+            {id => 0, name => "Instance 1", key_name => "gatlin", status =>
+                "ACTIVE"},
+            {id => 1, name => "Instance 2", key_name => "marin", status =>
+                "PAUSED"},
         ];
 
         my $bid = 0;

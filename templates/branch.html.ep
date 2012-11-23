@@ -9,6 +9,7 @@
         <tr>
             <th>Instance #</th>
             <th>Keypair</th>
+            <th>Status</th>
             <th>Action</th>
         </tr>
     </thead>
@@ -17,6 +18,7 @@
     <tr>
         <td><%= $instance->{name} %></td>
         <td><%= $instance->{key_name} %></td>
+        <td><%= $instance->{status} %></td>
         <td>
             <a href='#' class="btn btn-warning btn-mini">Stop</a>
             <a href="#" class="btn btn-mini">Pause</a>
