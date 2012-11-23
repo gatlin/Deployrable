@@ -22,6 +22,7 @@
 <% } %>
 </div>
 <div class="span4">
-<p class="well"><a href="/projects/new" class="btn">New Project</a></p>
+<h3>New Project</h3>
+<p class="well"><a href="/projects/new" class="btn">Create</a></p>
 </div>
 </div>
