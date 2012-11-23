@@ -132,6 +132,58 @@ sub startup {
         ]);
         $self->render('branch');
     });
+
+    ###
+    # Todo:
+
+    $r->get('/instance/:pid/:bid/:iid/stop' => sub {
+        my $self = shift;
+        my $pid = $self->param('pid');
+        my $bid = $self->param('bid');
+        my $iid = $self->param('iid');
+        $self->redirect_to("/project/$pid/$bid");
+    });
+
+    $r->get('/instance/:pid/:bid/:iid/pause' => sub {
+        my $self = shift;
+        my $pid = $self->param('pid');
+        my $bid = $self->param('bid');
+        my $iid = $self->param('iid');
+        $self->redirect_to("/project/$pid/$bid");
+    });
+
+    $r->get('/instance/:pid/:bid/:iid/restart' => sub {
+        my $self = shift;
+        my $pid = $self->param('pid');
+        my $bid = $self->param('bid');
+        my $iid = $self->param('iid');
+        $self->redirect_to("/project/$pid/$bid");
+    });
+
+    $r->post('/deploy' => sub {
+        my $self = shift;
+        my $pid = $self->param('projectId');
+        my $bid = $self->param('branchId');
+        my $img = $self->param('image');
+        my $flv = $self->param('flavor');
+
+        $self->redirect_to("/project/$pid/$bid");
+    });
+
+    $r->post('/projects/new' => sub {
+        my $self = shift;
+        my $title = $self->param('title');
+        my $host = $self->param('host');
+        my $repo = $self->param('repo');
+        my $path = $self->param('path');
+
+        $self->redirect_to('/projects');
+    });
+
+    $r->post('/projects/:pid/destroy' => sub {
+        my $self = shift;
+        $self->redirect_to('/projects');
+    });
 }
 
 1;
