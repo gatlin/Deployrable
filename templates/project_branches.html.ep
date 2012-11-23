@@ -24,7 +24,7 @@
 <div class="span4">
     <h3>Options</h3>
     <p class="well">
-    <a href="/project/<%= $project->{id} %>"
+    <a href="/project/<%= $project->{id} %>/destroy"
        class="btn btn-danger btn-block btn-large">Delete Project</a>
     </p>
 </div><!-- .span4 -->
