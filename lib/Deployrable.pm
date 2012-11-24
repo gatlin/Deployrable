@@ -143,18 +143,19 @@ sub startup {
         } @$instances_;
 
         my $branch = { name => $bid };
+
         my $rv = $self->db->selectrow_hashref("
             select * from projects
             where
-                id = $pid
-            ;
+                id = $pid;
         ",{Slice => {}});
         my $project = {
+            id => $rv->{id},
             title => $rv->{title},
             host => $rv->{host},
+            port => $rv->{port},
             path => $rv->{path},
             repo => $rv->{repo},
-            port => $rv->{port},
         };
 
         $self->stash(images => $images);
