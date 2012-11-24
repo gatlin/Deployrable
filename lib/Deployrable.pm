@@ -5,7 +5,11 @@ use Mojo::JSON::XS;
 use Data::UUID;
 use Mojolicious::Plugin::Database;
 
+use Data::Dump qw(pp);
+
 our $VERSION = '0.1';
+
+sub zip { @_[map $_&1 ? $_>>1 : ($_>>1)+($#_>>1), 1..@_] };
 
 sub startup {
     my $self = shift;
@@ -54,19 +58,39 @@ sub startup {
     $r->get('/project/:id' => sub {
         my $self = shift;
 
-        my $branches = [
-            {id => 0, name => "hotfix-issue5"},
-            {id => 1, name => "menubar-fix"},
-            {id => 2, name => "test"},
-        ];
+        my $id = $self->param('id');
+        my $r;
+        $r = $self->db->selectrow_hashref("
+            select * from projects
+            where
+                id = $id;
+        ");
+        my $project = { %$r };
 
-        my $project = {
-            id => 0,
-            title => "Project 0",
-        };
+        $project->{port} //= 22;
+        $project->{path} //= '';
+        my @lsremote =
+            `git ls-remote
+            ssh://git\@$project->{host}:$project->{port}/$project->{path}/$project->{repo}.git`;
+
+        my $query =
+        "ssh://git\@$project->{host}:$project->{port}/$project->{path}/$project->{repo}.git";
+
+        my @names= map {
+            chomp;
+            s{.*refs/heads/(.*)}{$1} and $_ or ();
+            } @lsremote;
+
+        my @branches = ();
+        for my $i (0..scalar(@names)) {
+            push @branches, { id => $i, name => $names[$i] };
+        }
 
         $self->stash(project => $project);
-        $self->stash(branches => $branches);
+        $self->stash(branches => \@branches);
+        $self->stash(debugbranch => pp(@branches));
+        $self->stash(names => pp(@names));
+        $self->stash(query => $query);
         $self->stash(title => "$project->{title}");
         $self->stash(breadcrumbs => [
             {name => "Projects", path => "/projects"},

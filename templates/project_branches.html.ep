@@ -29,3 +29,11 @@
     </p>
 </div><!-- .span4 -->
 </div><!-- .row -->
+<!-- <%= $names %> -->
+<!-- <%= $query %> -->
+<!-- <%= $debugbranch %> -->
+<!-- <%= $project->{title} %> -->
+<!-- <%= $project->{host} %> -->
+<!-- <%= $project->{port} %> -->
+<!-- <%= $project->{path} %> -->
+<!-- <%= $project->{repo} %> -->
