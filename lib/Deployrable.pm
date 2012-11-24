@@ -75,6 +75,7 @@ sub startup {
                 id = $id;
         ",{Slice => {}});
         my $project = {
+            id => $rv->{id},
             title => $rv->{title},
             host => $rv->{host},
             port => $rv->{port},
@@ -161,6 +162,7 @@ sub startup {
         $self->stash(instances => \@instances);
         $self->stash(branchId => $bid);
         $self->stash(projectId => $project->{title});
+        $self->stash(pid => $pid);
         $self->stash(title => $branch->{name});
         $self->stash(breadcrumbs => [
             {name => "Projects", path => "/projects"},
@@ -178,6 +180,18 @@ sub startup {
         my $pid = $self->param('pid');
         my $bid = $self->param('bid');
         my $iid = $self->param('iid');
+
+        $compute->_action($iid,'os-stop' => undef);
+        $self->redirect_to("/project/$pid/$bid");
+    });
+
+    $r->get('/instance/:pid/:bid/:iid/start' => sub {
+        my $self = shift;
+        my $pid = $self->param('pid');
+        my $bid = $self->param('bid');
+        my $iid = $self->param('iid');
+
+        $compute->_action($iid,'os-start' => undef);
         $self->redirect_to("/project/$pid/$bid");
     });
 
@@ -186,6 +200,18 @@ sub startup {
         my $pid = $self->param('pid');
         my $bid = $self->param('bid');
         my $iid = $self->param('iid');
+
+        $compute->_action($iid,'pause' => undef);
+        $self->redirect_to("/project/$pid/$bid");
+    });
+
+    $r->get('/instance/:pid/:bid/:iid/unpause' => sub {
+        my $self = shift;
+        my $pid = $self->param('pid');
+        my $bid = $self->param('bid');
+        my $iid = $self->param('iid');
+
+        $compute->_action($iid,'unpause' => undef);
         $self->redirect_to("/project/$pid/$bid");
     });
 
@@ -194,6 +220,18 @@ sub startup {
         my $pid = $self->param('pid');
         my $bid = $self->param('bid');
         my $iid = $self->param('iid');
+
+        $compute->_action($iid,'reboot' => {'type' => 'SOFT'});
+        $self->redirect_to("/project/$pid/$bid");
+    });
+
+    $r->get('/instance/:pid/:bid/:iid/destroy' => sub {
+        my $self = shift;
+        my $pid = $self->param('pid');
+        my $bid = $self->param('bid');
+        my $iid = $self->param('iid');
+
+        $compute->delete_server($iid);
         $self->redirect_to("/project/$pid/$bid");
     });
 
@@ -203,6 +241,14 @@ sub startup {
         my $bid = $self->param('branchId');
         my $img = $self->param('image');
         my $flv = $self->param('flavor');
+        my $nom = $self->param('name');
+
+        $compute->create_server({
+            name => "$bid-$nom",
+            flavorRef => $flv,
+            imageRef => $img,
+            key_name => $config->{novacertname},
+        });
 
         $self->redirect_to("/project/$pid/$bid");
     });
