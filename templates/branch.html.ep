@@ -2,6 +2,10 @@
 % title $title;
 <div class="row">
 <div class="span8">
+    <div class="alert alert-info">
+        <button type="button" class="close" data-dismiss="alert">x</button>
+        <p><em>If you don't see what you expected, refresh again!</em></p>
+    </div>
     <h2>Instances for this branch</h2>
     <% if (scalar @{$instances}) { %>
     <table class="table table-striped">
