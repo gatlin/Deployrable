@@ -12,7 +12,7 @@
     <thead>
         <tr>
             <th>Name</th>
-            <th>Keypair</th>
+            <th>IP</th>
             <th>Status</th>
             <th>Action</th>
         </tr>
@@ -21,7 +21,7 @@
     <% foreach my $instance (@$instances) { %>
     <tr>
         <td><%= $instance->{name} %></td>
-        <td><%= $instance->{key_name} %></td>
+        <td><%= $instance->{ip} %></td>
         <td><%= $instance->{status} %></td>
         <td>
             <a href="/instance/<%= $pid %>/<%= $branchId %>/<%=
@@ -75,7 +75,7 @@
         </div><!-- .controls -->
     </div><!-- .control-group -->
     <input type="hidden" value="<%= $branchId %>" name="branchId">
-    <input type="hidden" value="<%= $projectId %>" name="projectId">
+    <input type="hidden" value="<%= $pid %>" name="projectId">
     <div class="control-group">
         <div class="controls">
             <button type="submit" class="btn btn-primary">Deploy</button>

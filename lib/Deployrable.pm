@@ -6,6 +6,7 @@ use Data::UUID;
 use Mojolicious::Plugin::Database;
 
 use Net::OpenStack::Compute;
+use Net::OpenSSH;
 use Data::Dump qw(pp);
 
 our $VERSION = '0.1';
@@ -139,6 +140,9 @@ sub startup {
         my $bid = $self->param('bid');
 
         my @instances = map {
+            my @ips = @{$_->{addresses}->{private}};
+            my $ip = $ips[$#ips];
+            $_->{ip} = $ip->{addr};
             $_->{name} =~ m/^$bid/ and $_ or ();
         } @$instances_;
 
@@ -250,6 +254,38 @@ sub startup {
             imageRef => $img,
             key_name => $config->{novacertname},
         });
+
+        my $servers = $compute->get_servers(detail => 1);
+        my $s = undef;
+        for my $server (@$servers) {
+            $s = $server if $server->{name} eq "$bid-$nom";
+        }
+        $self->redirect_to("/project/$pid/$bid") unless $s;
+
+        my @ips = @{$s->{addresses}->{private}};
+        my $ip  = $ips[$#ips]->{addr};
+
+        my $rv = $self->db->selectrow_hashref("
+            select * from projects
+            where
+                id = $pid;
+        ");
+        my $p= {
+            host => $rv->{host},
+            path => $rv->{path} // '',
+            repo => $rv->{repo},
+            port => $rv->{port} // 22,
+        };
+
+        my $ssh = Net::OpenSSH->new($ip,
+            user => "ubuntu",
+            key_path => $config->{novacertpath},
+        );
+
+        my $out = $ssh->capture(
+            "git clone
+            ssh://git\@$p->{host}:$p->{port}/$p->{path}/$p->{repo}.git"
+        );
 
         $self->redirect_to("/project/$pid/$bid");
     });
