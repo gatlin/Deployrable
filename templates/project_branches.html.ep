@@ -14,7 +14,7 @@
 <% foreach my $branch (@$branches) { %>
 <tr>
     <td>
-    <a href="/project/<%= $project->{id} %>/<%= $branch->{id} %>"><%= $branch->{name} %></a>
+    <a href="/project/<%= $project->{id} %>/<%= $branch->{name} %>"><%= $branch->{name} %></a>
     </td>
 </tr>
 <% } %>

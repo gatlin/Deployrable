@@ -5,6 +5,7 @@ use Mojo::JSON::XS;
 use Data::UUID;
 use Mojolicious::Plugin::Database;
 
+use Net::OpenStack::Compute;
 use Data::Dump qw(pp);
 
 our $VERSION = '0.1';
@@ -23,6 +24,15 @@ sub startup {
                     options => { AutoCommit => 1 },
                     helper => 'db',
     });
+
+    #novacertname: "gatlin"
+    #novacertpath: "/Users/gatlinjohnson/gatlin.pem"
+    my $compute = Net::OpenStack::Compute->new(
+        auth_url => $config->{authurl},
+        project_id => $config->{tenant_name},
+        user => $config->{novauser},
+        password => $config->{novapass}
+    );
 
     # Documentation browser under "/perldoc"
     $self->plugin('PODRenderer');
@@ -59,13 +69,18 @@ sub startup {
         my $self = shift;
 
         my $id = $self->param('id');
-        my $r;
-        $r = $self->db->selectrow_hashref("
+        my $rv = $self->db->selectrow_hashref("
             select * from projects
             where
                 id = $id;
-        ");
-        my $project = { %$r };
+        ",{Slice => {}});
+        my $project = {
+            title => $rv->{title},
+            host => $rv->{host},
+            port => $rv->{port},
+            path => $rv->{path},
+            repo => $rv->{repo},
+        };
 
         $project->{port} //= 22;
         $project->{path} //= '';
@@ -115,46 +130,43 @@ sub startup {
     $r->get('/project/:pid/:bid' => sub {
         my $self = shift;
 
-        my $images = [
-            {id => 0, name => "image0"},
-            {id => 1, name => "image1"},
-            {id => 2, name => "image2"},
-        ];
+        my $images = $compute->get_images(detail => 1);
+        my $flavors = $compute->get_flavors(detail => 1);
+        my $instances_ = $compute->get_servers(detail => 1);
 
-        my $flavors = [
-            {id => 0, name => "flavor0"},
-            {id => 1, name => "flavor1"},
-            {id => 2, name => "flavor2"},
-        ];
+        my $pid = $self->param('pid');
+        my $bid = $self->param('bid');
 
-        my $instances = [
-            {id => 0, name => "Instance 1", key_name => "gatlin", status =>
-                "ACTIVE"},
-            {id => 1, name => "Instance 2", key_name => "marin", status =>
-                "PAUSED"},
-        ];
+        my @instances = map {
+            $_->{name} =~ m/^$bid/ and $_ or ();
+        } @$instances_;
 
-        my $bid = 0;
-        my $pid = 0;
-
-        my $branch = {
-            name => "hotfix-issue5",
-        };
-
+        my $branch = { name => $bid };
+        my $rv = $self->db->selectrow_hashref("
+            select * from projects
+            where
+                id = $pid
+            ;
+        ",{Slice => {}});
         my $project = {
-            title => "Project 0",
+            title => $rv->{title},
+            host => $rv->{host},
+            path => $rv->{path},
+            repo => $rv->{repo},
+            port => $rv->{port},
         };
 
         $self->stash(images => $images);
         $self->stash(flavors => $flavors);
-        $self->stash(instances => $instances);
+        $self->stash(instances => \@instances);
         $self->stash(branchId => $bid);
-        $self->stash(projectId => $pid);
+        $self->stash(projectId => $project->{title});
         $self->stash(title => $branch->{name});
         $self->stash(breadcrumbs => [
             {name => "Projects", path => "/projects"},
             {name => $project->{title}, path => "/project/$pid"},
         ]);
+        $self->stash(debugproject => pp($project));
         $self->render('branch');
     });
 
