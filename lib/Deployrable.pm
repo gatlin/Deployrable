@@ -140,9 +140,10 @@ sub startup {
         my $bid = $self->param('bid');
 
         my @instances = map {
-            my @ips = @{$_->{addresses}->{private}};
-            my $ip = $ips[$#ips];
-            $_->{ip} = $ip->{addr};
+            #my @ips = @{$_->{addresses}->{private}};
+            #my $ip = $ips[$#ips];
+            #$_->{ip} = $ip->{addr};
+            $_->{ip} = '0.0.0.0';
             $_->{name} =~ m/^$bid/ and $_ or ();
         } @$instances_;
 
@@ -261,7 +262,7 @@ sub startup {
             $s = $server if $server->{name} eq "$bid-$nom";
         }
         $self->redirect_to("/project/$pid/$bid") unless $s;
-
+=cut
         my @ips = @{$s->{addresses}->{private}};
         my $ip  = $ips[$#ips]->{addr};
 
@@ -286,7 +287,7 @@ sub startup {
             "git clone
             ssh://git\@$p->{host}:$p->{port}/$p->{path}/$p->{repo}.git"
         );
-
+=cut
         $self->redirect_to("/project/$pid/$bid");
     });
 
