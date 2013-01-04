@@ -178,32 +178,56 @@ sub startup {
         $self->render('branch');
     });
 
-    ###
-    # Todo:
+    # instances
+    $r->get('/instances/:bid' => sub {
+        my $self = shift;
+        my $bid = $self->param('bid');
 
+        my $instances_ = $compute->get_servers(detail => 1);
+        my @instances = map {
+            $_->{ip} = '0.0.0.0';
+            $_->{name} =~ m/^$bid/ and $_ or ();
+        } @$instances_;
+
+        $self->render(json => \@instances);
+    });
+
+    # stop
     $r->get('/instance/:pid/:bid/:iid/stop' => sub {
         my $self = shift;
         my $pid = $self->param('pid');
         my $bid = $self->param('bid');
         my $iid = $self->param('iid');
 
+        my $success = Mojo::JSON->true;
         eval {
             $compute->_action($iid,'os-stop' => undef)
-        } or do {};
+        } or do {
+            $success = Mojo::JSON->false;
+            return;
+        };
 
-        $self->redirect_to("/project/$pid/$bid");
+        $self->render(json => {
+            success => $success,
+        });
     });
 
+    # start
     $r->get('/instance/:pid/:bid/:iid/start' => sub {
         my $self = shift;
         my $pid = $self->param('pid');
         my $bid = $self->param('bid');
         my $iid = $self->param('iid');
 
+        my $success = Mojo::JSON->true;
         eval {
             $compute->_action($iid,'os-start' => undef);
-        } or do {};
-        $self->redirect_to("/project/$pid/$bid");
+        } or do {
+            $success = Mojo::JSON->false;
+        };
+        $self->render(json => {
+            success => $success,
+        });
     });
 
     $r->get('/instance/:pid/:bid/:iid/pause' => sub {
@@ -212,10 +236,15 @@ sub startup {
         my $bid = $self->param('bid');
         my $iid = $self->param('iid');
 
+        my $success = Mojo::JSON->true;
         eval {
             $compute->_action($iid,'pause' => undef);
-        } or do {};
-        $self->redirect_to("/project/$pid/$bid");
+        } or do {
+            $success = Mojo::JSON->false;
+        };
+        $self->render(json => {
+            success => $success,
+        });
     });
 
     $r->get('/instance/:pid/:bid/:iid/unpause' => sub {
@@ -224,10 +253,15 @@ sub startup {
         my $bid = $self->param('bid');
         my $iid = $self->param('iid');
 
+        my $success = Mojo::JSON->true;
         eval {
             $compute->_action($iid,'unpause' => undef);
-        } or do {};
-        $self->redirect_to("/project/$pid/$bid");
+        } or do {
+            $success = Mojo::JSON->false;
+        };
+        $self->render(json => {
+            success => $success,
+        });
     });
 
     $r->get('/instance/:pid/:bid/:iid/restart' => sub {
@@ -236,10 +270,15 @@ sub startup {
         my $bid = $self->param('bid');
         my $iid = $self->param('iid');
 
+        my $success = Mojo::JSON->true;
         eval {
             $compute->_action($iid,'reboot' => {'type' => 'SOFT'});
-        } or do {};
-        $self->redirect_to("/project/$pid/$bid");
+        } or do {
+            $success = Mojo::JSON->false;
+        };
+        $self->render(json => {
+            success => $success,
+        });
     });
 
     $r->get('/instance/:pid/:bid/:iid/destroy' => sub {
@@ -248,15 +287,21 @@ sub startup {
         my $bid = $self->param('bid');
         my $iid = $self->param('iid');
 
+        my $success = Mojo::JSON->true;
+        eval {
+            $compute->delete_server($iid);
+        } or do {
+            $success = Mojo::JSON->false;
+        };
+
         my $sth = $self->db->prepare("
             delete from projects
             where id = $pid;
         ");
-        my $ret = $sth->execute;
-        eval {
-            $compute->delete_server($iid);
-        } or do {};
-        $self->redirect_to("/project/$pid/$bid");
+        my $ret = $sth->execute unless $success;
+        $self->render(json => {
+            success => $success,
+        });
     });
 
     $r->post('/deploy' => sub {

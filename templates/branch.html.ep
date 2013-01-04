@@ -1,13 +1,12 @@
 % layout 'main';
 % title $title;
-<div class="row">
+<div class="row" ng-app ng-controller="InstanceCtrl">
 <div class="span8">
     <div class="alert alert-info">
         <button type="button" class="close" data-dismiss="alert">x</button>
         <p><em>If you don't see what you expected, refresh again!</em></p>
     </div>
     <h2>Instances for this branch</h2>
-    <% if (scalar @{$instances}) { %>
     <table class="table table-striped">
     <thead>
         <tr>
@@ -18,32 +17,33 @@
         </tr>
     </thead>
     <tbody>
-    <% foreach my $instance (@$instances) { %>
-    <tr>
-        <td><%= $instance->{name} %></td>
-        <td><%= $instance->{ip} %></td>
-        <td><%= $instance->{status} %></td>
+    <tr ng-repeat="instance in instances">
+        <td>{{instance.name}}</td>
+        <td>{{instance.ip}}</td>
+        <td>{{instance.status}}</td>
         <td>
-            <a href="/instance/<%= $pid %>/<%= $branchId %>/<%=
-            $instance->{id} %>/stop" class="btn btn-warning btn-mini">Stop</a>
-            <a href="/instance/<%= $pid %>/<%= $branchId %>/<%=
-            $instance->{id} %>/start" class="btn btn-mini">Start</a>
-            <a href="/instance/<%= $pid %>/<%= $branchId %>/<%=
-            $instance->{id} %>/pause" class="btn btn-mini">Pause</a>
-            <a href="/instance/<%= $pid %>/<%= $branchId %>/<%=
-            $instance->{id} %>/unpause" class="btn btn-mini">Unpause</a>
-            <a href="/instance/<%= $pid %>/<%= $branchId %>/<%=
-            $instance->{id} %>/restart" class="btn btn-mini">Restart</a>
-            <a href="/instance/<%= $pid %>/<%= $branchId %>/<%=
-            $instance->{id} %>/destroy" class="btn btn-mini btn-danger">Destroy</a>
+            <a ng-href="/instance/{{projectId}}/{{branchId}}/{{instance.id}}/stop"
+                class="btn btn-warning btn-mini">Stop</a>
+            <a
+               ng-href="/instance/{{projectId}}$/{{branchId}}/{{instance.id}}/start"
+            class="btn btn-mini">Start</a>
+            <a
+               ng-href="/instance/{{projectId}}$/{{branchId}}/{{instance.id}}/pause"
+            class="btn btn-mini">Pause</a>
+            <a
+               ng-href="/instance/{{projectId}}$/{{branchId}}/{{instance.id}}/unpause"
+            class="btn btn-mini">Unpause</a>
+            <a
+               ng-href="/instance/{{projectId}}$/{{branchId}}/{{instance.id}}/restart"
+            class="btn btn-mini">Restart</a>
+            <a
+               ng-href="/instance/{{projectId}}$/{{branchId}}/{{instance.id}}/destroy"
+            class="btn btn-mini">Destroy</a>
         </td>
     </tr>
-    <% } %>
     </tbody>
     </table>
-    <% } else { %>
-    <p><strong>No running instances!</strong></p>
-    <% } %>
+    <p ng-hide="instances.length"><strong>No running instances!</strong></p>
 </div><!-- .span8 -->
 <div class="span4">
 <form class="form well" action="/deploy" method="POST">
@@ -84,4 +84,15 @@
 </form>
 </div><!-- .span4 -->
 </div><!-- .row -->
+<script src="/js/angular.min.js"></script>
+<script>
+    function InstanceCtrl($scope, $http) {
+        $scope.branchId = '<%= $branchId %>';
+        $scope.projectId = '<%= $pid %>';
+
+        $http({method: 'GET', url: '/instances/<%= $branchId %>'},function(d) {
+            $scope.instances = d;
+        });
+    }
+</script>
 <!-- <%= $debugproject %> -->
