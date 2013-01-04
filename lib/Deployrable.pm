@@ -187,7 +187,10 @@ sub startup {
         my $bid = $self->param('bid');
         my $iid = $self->param('iid');
 
-        $compute->_action($iid,'os-stop' => undef);
+        eval {
+            $compute->_action($iid,'os-stop' => undef)
+        } or do {};
+
         $self->redirect_to("/project/$pid/$bid");
     });
 
@@ -197,7 +200,9 @@ sub startup {
         my $bid = $self->param('bid');
         my $iid = $self->param('iid');
 
-        $compute->_action($iid,'os-start' => undef);
+        eval {
+            $compute->_action($iid,'os-start' => undef);
+        } or do {};
         $self->redirect_to("/project/$pid/$bid");
     });
 
@@ -207,7 +212,9 @@ sub startup {
         my $bid = $self->param('bid');
         my $iid = $self->param('iid');
 
-        $compute->_action($iid,'pause' => undef);
+        eval {
+            $compute->_action($iid,'pause' => undef);
+        } or do {};
         $self->redirect_to("/project/$pid/$bid");
     });
 
@@ -217,7 +224,9 @@ sub startup {
         my $bid = $self->param('bid');
         my $iid = $self->param('iid');
 
-        $compute->_action($iid,'unpause' => undef);
+        eval {
+            $compute->_action($iid,'unpause' => undef);
+        } or do {};
         $self->redirect_to("/project/$pid/$bid");
     });
 
@@ -227,7 +236,9 @@ sub startup {
         my $bid = $self->param('bid');
         my $iid = $self->param('iid');
 
-        $compute->_action($iid,'reboot' => {'type' => 'SOFT'});
+        eval {
+            $compute->_action($iid,'reboot' => {'type' => 'SOFT'});
+        } or do {};
         $self->redirect_to("/project/$pid/$bid");
     });
 
@@ -242,7 +253,9 @@ sub startup {
             where id = $pid;
         ");
         my $ret = $sth->execute;
-        $compute->delete_server($iid);
+        eval {
+            $compute->delete_server($iid);
+        } or do {};
         $self->redirect_to("/project/$pid/$bid");
     });
 
