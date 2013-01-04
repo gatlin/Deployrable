@@ -51,13 +51,13 @@
     <div class="control-group">
         <label class="control-label" for="name">Name</label>
         <div class="controls">
-            <input type="text" id="name" name="name">
+            <input type="text" id="name" name="name" class="input-block-level">
         </div><!-- .controls -->
     </div><!-- .control-group -->
     <div class="control-group">
         <label class="control-label" for="image">Image</label>
         <div class="controls">
-            <select name="image" id="image">
+            <select name="image" id="image" class="input-block-level">
             <% foreach my $i (@$images) { %>
                 <option value="<%= $i->{id} %>"><%= $i->{name} %></option>
             <% } %>
@@ -67,7 +67,7 @@
     <div class="control-group">
         <label class="control-label" for="flavor">Flavors</label>
         <div class="controls">
-            <select name="flavor" id="flavor">
+            <select name="flavor" id="flavor" class="input-block-level">
             <% foreach my $f (@$flavors) { %>
                 <option value="<%= $f->{id} %>"><%= $f->{name} %></option>
             <% } %>
