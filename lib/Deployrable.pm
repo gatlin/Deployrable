@@ -20,10 +20,10 @@ sub startup {
     $self->plugin('database', {
             dsn => "DBI:mysql:database=$config->{dbname};
                     host=$config->{dbhost};port=$config->{port}",
-                    username => $config->{dbuser},
-                    password => $config->{dbpass},
-                    options => { AutoCommit => 1 },
-                    helper => 'db',
+            username => $config->{dbuser},
+            password => $config->{dbpass},
+            options => { AutoCommit => 1 },
+            helper => 'db',
     });
 
     #novacertname: "gatlin"
@@ -209,6 +209,7 @@ sub startup {
 
         $self->render(json => {
             success => $success,
+            instance => $compute->get_server($iid),
         });
     });
 
@@ -227,6 +228,7 @@ sub startup {
         };
         $self->render(json => {
             success => $success,
+            instance => $compute->get_server($iid),
         });
     });
 
@@ -244,6 +246,7 @@ sub startup {
         };
         $self->render(json => {
             success => $success,
+            instance => $compute->get_server($iid),
         });
     });
 
@@ -261,6 +264,7 @@ sub startup {
         };
         $self->render(json => {
             success => $success,
+            instance => $compute->get_server($iid),
         });
     });
 
@@ -278,6 +282,7 @@ sub startup {
         };
         $self->render(json => {
             success => $success,
+            instance => $compute->get_server($iid),
         });
     });
 
@@ -301,6 +306,7 @@ sub startup {
         my $ret = $sth->execute unless $success;
         $self->render(json => {
             success => $success,
+            instance => $compute->get_server($iid),
         });
     });
 
