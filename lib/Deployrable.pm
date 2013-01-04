@@ -237,6 +237,11 @@ sub startup {
         my $bid = $self->param('bid');
         my $iid = $self->param('iid');
 
+        my $sth = $self->db->prepare("
+            delete from projects
+            where id = $pid;
+        ");
+        my $ret = $sth->execute;
         $compute->delete_server($iid);
         $self->redirect_to("/project/$pid/$bid");
     });
